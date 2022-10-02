@@ -1,34 +1,92 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>I dunno</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-  </head>
-  <body>
-    <table>
-      <button id="fb" type="button" name="button">Facebook</button>
-      <input id="password" type="text" name="" value="Password">
-      <input id="username" type="text" name="" value="Username">
-    </table>
-    <table>
-      <col span="2">
-        <button type="button" name="button">Twitter</button>
-        <input id="password" type="text" name="" value="Password">
-        <input id="username" type="text" name="" value="Username">
-      </col>
-    </table>
-    <table>
-      <button type="button" name="button">Gmail</button>
-      <input id="username" type="text" name="" value="Password">
-      <input id="password" type="text" name="" value="Username">
-    </table>
 
+<head>
+  <meta charset="utf-8">
+  <title>I dunno</title>
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+</head>
 
-    <button type="button" name="button">Wechat</button>
-    <input id="password" type="text" name="" value="Password">
-    <input id="username" type="text" name="" value="Username">
-  </body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="/js/index.js"></script>
+<body>
+  <div class="fb">
+    <div class="box">
+      <a class="button" href="#popup1">Facebook?</a>
+      <p id="fbStatus">
+        Status: Not Logged In
+      </p>
+    </div>
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <input id="passwordfb" type="text" name="" value="Password">
+          <input id="usernamefb" type="text" name="" value="Username">
+          <button id="fbButton" type="button" name="button" >Enter</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="twatter">
+    <div class="box">
+      <a class="button" href="#popup2">Twitter?</a>
+      <p id="twStatus">
+        Status: Not Logged In
+      </p>
+    </div>
+    <div id="popup2" class="overlay">
+      <div class="popup">
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <input id="passwordtw" type="text" name="" value="Password">
+          <input id="usernametw" type="text" name="" value="Username">
+          <button id="twButton" type="button" name="button">Enter</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="gmail">
+    <div class="box">
+      <a class="button" href="#popup3">Gmail?</a>
+      <p id="gmStatus">
+        Status: Not Logged In
+      </p>
+    </div>
+    <div id="popup3" class="overlay">
+      <div class="popup">
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <input id="usernamegm" type="text" name="" value="Password">
+          <input id="passwordgm" type="text" name="" value="Username">
+          <button id="gmButton" type="button" name="button">Enter</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="WeDie">
+    <div class="box">
+      <a class="button" href="#popup4">WeChat?</a>
+      <p id="wcStatus">
+        Status: Not Logged In
+      </p>
+    </div>
+    <div id="popup4" class="overlay">
+      <div class="popup">
+        <a class="close" href="#">&times;</a>
+        <div class="content">
+          <input id="passwordwc" type="text" name="" value="Password">
+          <input id="usernamewc" type="text" name="" value="Username">
+          <button id="wcButton" type="button" name="button">Enter</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <button id="FMU" type="button" name="button">Fuck Me Up</button>
+</body>
+<script src="../static/js/form.js" charset="utf-8"></script>
+
 </html>
