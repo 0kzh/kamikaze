@@ -8,16 +8,19 @@
 </head>
 
 <body>
+
   <div class="fb">
     <div id="toast1" class="box">
-      <a class="button" href="#popup1">Facebook?</a>
+      <a id="fbLogButton" href="#popup1"><button type = "submit" width='25' height='25'>
+        <img src="buttons/FB.png"/>
+      </button></a>
       <p id="fbStatus">
         Status: Not Logged In
       </p>
     </div>
     <div id="popup1" class="overlay">
       <div class="popup">
-        <a class="close" href="#">&times;</a>
+        <a id="fbClose" class="close" href="#">&times;</a>
         <div class="content">
           <input id="passwordfb" type="text" name="" value="Password">
           <input id="usernamefb" type="text" name="" value="Username">
@@ -30,14 +33,16 @@
 
   <div class="twatter">
     <div id="toast2" class="box">
-      <a class="button" href="#popup2">Twitter?</a>
+      <a id="twLogButton" href="#popup2"><button type = "submit">
+        <img src="buttons/TW.png"/>
+      </button></a>
       <p id="twStatus">
         Status: Not Logged In
       </p>
     </div>
     <div id="popup2" class="overlay">
       <div class="popup">
-        <a class="close" href="#">&times;</a>
+        <a id="twClose" class="close" href="#">&times;</a>
         <div class="content">
           <input id="passwordtw" type="text" name="" value="Password">
           <input id="usernametw" type="text" name="" value="Username">
@@ -49,14 +54,16 @@
   </div>
   <div class="gmail">
     <div id="toast3" class="box">
-      <a class="button" href="#popup3">Gmail?</a>
+      <a id="gmLogButton" href="#popup3"><button type = "submit">
+        <img src="buttons/GM.png"/>
+      </button></a>
       <p id="gmStatus">
         Status: Not Logged In
       </p>
     </div>
     <div id="popup3" class="overlay">
       <div class="popup">
-        <a class="close" href="#">&times;</a>
+        <a id="gmClose" class="close" href="#">&times;</a>
         <div class="content">
           <input id="usernamegm" type="text" name="" value="Password">
           <input id="passwordgm" type="text" name="" value="Username">
@@ -68,21 +75,22 @@
   </div>
   <div class="WeDie">
     <div id="toast4" class="box">
-      <a class="button" href="#popup4">WeChat?</a>
+      <a id="wcLogButton" href="#popup4"><button type = "submit">
+        <img src="buttons/WC.png"/>
+      </button></a>
       <p id="wcStatus">
         Status: Not Logged In
       </p>
     </div>
     <div id="popup4" class="overlay">
       <div class="popup">
-        <a class="close" href="#">&times;</a>
+        <a id="wcClose" class="close" href="#">&times;</a>
         <div class="content">
           <input id="passwordwc" type="text" name="" value="Password">
           <input id="usernamewc" type="text" name="" value="Username">
           <button id="wcButton" type="button" name="button">Enter</button>
         </div>
       </div>
-
     </div>
   </div>
   <button id="FMU" type="button" name="button">Fuck Me Up</button>

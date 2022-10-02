@@ -9,6 +9,7 @@ html, body {
   margin-left: 30px;
   margin-right: auto;
 }
+
 #twButton {
   background-color: #0048BA;
   color: #FFFFFF;
@@ -16,6 +17,7 @@ html, body {
   margin-left: 30px;
   margin-right: auto;
 }
+
 #gmButton {
   background-color: #FFBF00;
   color: #00E6BF;
@@ -23,6 +25,7 @@ html, body {
   margin-left: 30px;
   margin-right: auto;
 }
+
 #wcButton {
   background-color: #FF002B;
   color: #404D00;
@@ -30,19 +33,20 @@ html, body {
   margin-left: 30px;
   margin-right: auto;
 }
-#FMU{
+
+#FMU {
   padding: 75px 125px;
   background-color: #FF002B;
   color: #FFFFFF;
-  margin:auto;
-  display:block;
+  margin: auto;
+  display: block;
   font-size: large;
 }
 
-.box {
+#toast1 {
+  background: #rgba(255, 255, 255, 0.25);
   width: 40%;
   margin: 0 auto;
-  background: rgba(255,255,255,0.25);
   padding: 15px;
   border: 2px solid #fff;
   border-radius: 20px/50px;
@@ -50,18 +54,8 @@ html, body {
   text-align: center;
 }
 
-#toast1 {
-  background: #rgba(255,255,255,0.25);
-  width: 40%;
-  margin: 0 auto;
-  padding: 15px;
-  border: 2px solid #fff;
-  border-radius: 20px/50px;
-  background-clip: padding-box;
-  text-align: center;
-}
 #toast2 {
-  background: #rgba(255,255,255,0.25);
+  background: #rgba(255, 255, 255, 0.25);
   width: 40%;
   margin: 0 auto;
   padding: 15px;
@@ -70,8 +64,9 @@ html, body {
   background-clip: padding-box;
   text-align: center;
 }
+
 #toast3 {
-  background: #rgba(255,255,255,0.25);
+  background: #rgba(255, 255, 255, 0.25);
   width: 40%;
   margin: 0 auto;
   padding: 15px;
@@ -80,8 +75,9 @@ html, body {
   background-clip: padding-box;
   text-align: center;
 }
+
 #toast4 {
-  background: #rgba(255,255,255,0.25);
+  background: #rgba(255, 255, 255, 0.25);
   width: 40%;
   margin: 0 auto;
   padding: 15px;
@@ -106,10 +102,12 @@ html, body {
   visibility: hidden;
   opacity: 0;
 }
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
 }
+
 .popup {
   margin: 70px auto;
   padding: 20px;
@@ -130,13 +128,16 @@ html, body {
   text-decoration: none;
   color: #333;
 }
+
 .popup .close:hover {
   color: #06D85F;
 }
+
 .popup .content {
   max-height: 30%;
   overflow: auto;
 }
+
 #usernamefb {
   color: #FFCC99;
 }
@@ -156,6 +157,7 @@ html, body {
 #usernamegm {
   color: #FFCC99;
 }
+
 #passwordgm {
   color: #FFCC99;
 }
@@ -163,6 +165,7 @@ html, body {
 #usernamewc {
   color: #FFCC99;
 }
+
 #passwordwc {
   color: #FFCC99;
 }
