@@ -1,0 +1,14 @@
+{
+  "name": "nuke-my-social",
+  "description": "Just fuck me shit up",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^3.21.2",
+    "facebook-chat-api": "^1.6.1",
+    "messaging-api-wechat": "^0.8.4"
+  }
+}
