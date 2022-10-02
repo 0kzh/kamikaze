@@ -1,121 +1,168 @@
+html, body {
+  background: #04BBD3;
+}
+
 #fbButton {
-    background-color: #4CAF50;
-    color: #FFC0CB;
-    padding: 25px 32px;
-    margin-left: 30px;
-    margin-right: auto;
-  }
-  #twButton {
-    background-color: #0048BA;
-    color: #FFFFFF;
-    padding: 25px 36px;
-    margin-left: 30px;
-    margin-right: auto;
-  }
-  #gmButton {
-    background-color: #FFBF00;
-    color: #00E6BF;
-    padding: 25px 32px;
-    margin-left: 30px;
-    margin-right: auto;
-  }
-  #wcButton {
-    background-color: #FF002B;
-    color: #404D00;
-    padding: 25px 32px;
-    margin-left: 30px;
-    margin-right: auto;
-  }
-  #FMU{
-    padding: 75px 125px;
-    background-color: #FF002B;
-    color: #FFFFFF;
-    margin:auto;
-    display:block;
-    font-size: large;
-  }
-  .box {
-    width: 40%;
-    margin: 0 auto;
-    background: rgba(255,255,255,0.2);
-    padding: 15px;
-    border: 2px solid #fff;
-    border-radius: 20px/50px;
-    background-clip: padding-box;
-    text-align: center;
-  }
-  .button:hover {
-    background: #06D85F;
-  }
-  
-  .overlay {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
-  }
-  .overlay:target {
-    visibility: visible;
-    opacity: 1;
-  }
-  .popup {
-    margin: 70px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    width: 30%;
-    position: relative;
-    transition: all 1s ease-in-out;
-  }
-  
-  .popup .close {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    transition: all 200ms;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #333;
-  }
-  .popup .close:hover {
-    color: #06D85F;
-  }
-  .popup .content {
-    max-height: 30%;
-    overflow: auto;
-  }
-  #usernamefb {
-    color: #FFCC99;
-  }
-  
-  #passwordfb {
-    color: #FFCC99;
-  }
-  
-  #usernametw {
-    color: #FFCC99;
-  }
-  
-  #passwordtw {
-    color: #FFCC99;
-  }
-  
-  #usernamegm {
-    color: #FFCC99;
-  }
-  #passwordgm {
-    color: #FFCC99;
-  }
-  
-  #usernamewc {
-    color: #FFCC99;
-  }
-  #passwordwc {
-    color: #FFCC99;
-  }
+  background-color: #4CAF50;
+  color: #FFC0CB;
+  padding: 25px 32px;
+  margin-left: 30px;
+  margin-right: auto;
+}
+#twButton {
+  background-color: #0048BA;
+  color: #FFFFFF;
+  padding: 25px 32px;
+  margin-left: 30px;
+  margin-right: auto;
+}
+#gmButton {
+  background-color: #FFBF00;
+  color: #00E6BF;
+  padding: 25px 32px;
+  margin-left: 30px;
+  margin-right: auto;
+}
+#wcButton {
+  background-color: #FF002B;
+  color: #404D00;
+  padding: 25px 32px;
+  margin-left: 30px;
+  margin-right: auto;
+}
+#FMU{
+  padding: 75px 125px;
+  background-color: #FF002B;
+  color: #FFFFFF;
+  margin:auto;
+  display:block;
+  font-size: large;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.25);
+  padding: 15px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+#toast1 {
+  background: #rgba(255,255,255,0.25);
+  width: 40%;
+  margin: 0 auto;
+  padding: 15px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+#toast2 {
+  background: #rgba(255,255,255,0.25);
+  width: 40%;
+  margin: 0 auto;
+  padding: 15px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+#toast3 {
+  background: #rgba(255,255,255,0.25);
+  width: 40%;
+  margin: 0 auto;
+  padding: 15px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+#toast4 {
+  background: #rgba(255,255,255,0.25);
+  width: 40%;
+  margin: 0 auto;
+  padding: 15px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+#usernamefb {
+  color: #FFCC99;
+}
+
+#passwordfb {
+  color: #FFCC99;
+}
+
+#usernametw {
+  color: #FFCC99;
+}
+
+#passwordtw {
+  color: #FFCC99;
+}
+
+#usernamegm {
+  color: #FFCC99;
+}
+#passwordgm {
+  color: #FFCC99;
+}
+
+#usernamewc {
+  color: #FFCC99;
+}
+#passwordwc {
+  color: #FFCC99;
+}
